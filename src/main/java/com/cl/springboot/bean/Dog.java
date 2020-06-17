@@ -7,6 +7,7 @@ package com.cl.springboot.bean;
 public class Dog {
     private String name;
     private Integer age;
+    private int aaa;
 
     @Override
     public String toString() {
