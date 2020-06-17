@@ -8,6 +8,7 @@ public class Dog {
     private String name;
     private Integer age;
     private int aaa;
+    private String bbb;
 
     @Override
     public String toString() {
