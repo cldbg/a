@@ -1,0 +1,22 @@
+person:
+  name: zhangsan
+  age: 13
+  boss: false
+  birth: 2000/1/1
+  maps: {a1,a2,a3}
+  lists:
+    - list
+    - zhangsli
+  dog:
+    name: 小狗
+    age: 2
+---
+spring:
+  profiles:
+    active: dev
+
+
+---
+spring:
+  profiles:
+    active: DECv
